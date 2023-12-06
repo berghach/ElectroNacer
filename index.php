@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>ElectroNacer</title>
 </head>
 <body>
 
     <!--authentification-->
     <section class="authen">
-        <img src="/assets/pics_electro/ElectroNacer.png" alt="">
+        <img src="./img/ElectroNacer.png" alt="">
         <div class="login">
-            <form action="">
+            <form action="welcome.php" method="post">
                 <div id="input">
                     <label for="ID">Identification</label>
                     <input type="text" name="ID" id="ID">

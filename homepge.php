@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/CSS/style.css"> 
+    <link rel="stylesheet" href="./assets/CSS/style.css"> 
     <title>home page</title>
 </head>
 <body>
@@ -11,7 +11,7 @@
     <header id="site_header">
         <nav>
             <div class="logo">
-                <a href="/homepge.html">
+                <a href="./homepge.php">
                     <p>ELECTRO</p>
                     <p>NACER</p>
                 </a>
@@ -24,11 +24,15 @@
             <div class="icons">
                 <ion-icon name="search-outline"></ion-icon>
                 <ion-icon name="bag-outline"></ion-icon>
-                <ion-icon name="person-outline"></ion-icon>
+                <a href="./index.php"><ion-icon name="person-outline"></ion-icon></a>
             </div>
         </nav>
     </header>
     <!--/navigation bar-->
+
+    <section>
+        <img src="./img/arduino-mega-2560-electromashop.jpg" alt="">
+    </section>
 
     <!--footer-->
     <section id="footer">
